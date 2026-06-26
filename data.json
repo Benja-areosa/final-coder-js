@@ -22,11 +22,5 @@
         "nombre": "Perfilado de Cejas",
         "precio": 2000,
         "duracion": "15 min"
-    },
-    {
-        "id": 5,
-        "nombre":"Corte + Barba + Tintura + Bebida a elección",
-        "precio": 25000,
-        "duracion": "2 horas"
     }
 ]
