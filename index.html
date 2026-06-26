@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barbería El Papilo</title>
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+</head>
+<body> 
+
+    <header>
+        <h1>💈 Barbería "El Papilo" 💈</h1>
+        <p>Elegí tu estilo y reservá tu turno</p>
+    </header>
+
+    <main>
+        <section id="contenedor-servicios" class="grilla-servicios">
+            </section>
+
+        <hr>
+
+        <section class="seccion-reserva">
+            <h2>Confirmar Turno</h2>
+            <form id="form-reserva">
+                <input type="text" id="nombre-cliente" placeholder="Tu Nombre (Ej: Lionel)" required>
+                <input type="date" id="fecha-turno" required>
+                <p>Servicio seleccionado: <strong id="resumen-servicio">Ninguno</strong></p>
+                <p>Total a pagar: $<strong id="resumen-total">0</strong></p>
+                <button type="submit" id="btn-confirmar">Reservar Turno</button>
+            </form>
+        </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    
+    <script src="main.js"></script>
+</body>
+</html>
