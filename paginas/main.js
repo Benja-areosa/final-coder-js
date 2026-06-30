@@ -12,10 +12,14 @@ const contadorCarrito = document.querySelector("#contador-carrito");
 const totalCarrito = document.querySelector("#total-carrito");
 const btnComprar = document.querySelector("#btn-comprar");
 
-// 1. OBTENEMOS EL INVENTARIO (Fetch)
+// 1. OBTENEMOS EL INVENTARIO (Fetch Inteligente)
 const cargarProductos = async () => {
     try {
-        const respuesta = await fetch('./data.json');
+        // Magia: Detecta si la URL actual tiene la palabra "paginas"
+        // Si la tiene, busca el json ahí nomás. Si no (estamos en index), entra a la carpeta.
+        const rutaJSON = window.location.pathname.includes('paginas') ? 'data.json' : 'paginas/data.json';
+        
+        const respuesta = await fetch(rutaJSON);
         productosStock = await respuesta.json();
         filtrarYRenderizarVistas();
     } catch (error) {
