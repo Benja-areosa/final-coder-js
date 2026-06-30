@@ -11,11 +11,20 @@ body {
 .nav-link:hover { color: #198754 !important; }
 
 /* El Banner inicial del index.html */
-.hero-section {
-    height: 70vh;
-    background-image: url('https://images.unsplash.com/photo-1622285434720-0431b26a6f3b?q=80&w=2070&auto=format&fit=crop');
+/* ESTO ES LO NUEVO QUE REEMPLAZA AL ANTERIOR */
+.hero-fondo {
+    /* El linear-gradient es el filtro oscuro. Cambiá el URL por la foto que quieras */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://png.pngtree.com/thumb_back/fh260/background/20250330/pngtree-close-up-of-a-tennis-ball-on-padel-court-with-net-image_17154309.jpg');
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
+    
+    /* Le damos altura y centramos el contenido */
+    min-height: 60vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Tarjetas de productos */
