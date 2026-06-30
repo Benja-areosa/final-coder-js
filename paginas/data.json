@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "nombre": "Nox AT10 Genius",
+        "precio": 285000,
+        "descripcion": "La paleta de Agustín Tapia. Formato gota.",
+        "categoria": "paletas",
+        "imagen": "https://acdn.mitiendanube.com/stores/001/139/292/products/at10-18k-2023-11-20fc45672d9fc5caaa16709590858178-640-0.jpg"
+    },
+    {
+        "id": 2,
+        "nombre": "Asics Gel-Resolution 9",
+        "precio": 145000,
+        "descripcion": "Suela clay para máximo agarre en la arena.",
+        "categoria": "zapatillas",
+        "imagen": "https://acdn.mitiendanube.com/stores/001/017/633/products/1041a330_400_sr_rt_glbl-2544e3e6f9872545ab16788225575773-640-0.jpg"
+    },
+    {
+        "id": 3,
+        "nombre": "Bolso Bullpadel Vertex",
+        "precio": 65000,
+        "descripcion": "Amplio, con compartimento térmico para las paletas.",
+        "categoria": "accesorios",
+        "imagen": "https://acdn.mitiendanube.com/stores/001/017/633/products/bpp-23001-005-11-fca5f2c589b275cf2616854580393049-640-0.jpg"
+    }
+]

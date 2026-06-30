@@ -2,31 +2,25 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
-    /* Evita que el scroll horizontal se rompa */
     overflow-x: hidden; 
 }
 
-/* EFECTOS DEL NAVBAR Y ICONOS */
-.icono-nav {
-    transition: color 0.3s ease;
-}
+/* Efectos de la barra de navegación */
+.icono-nav { transition: color 0.3s ease; }
+.icono-nav:hover { color: #198754 !important; }
+.nav-link:hover { color: #198754 !important; }
 
-.icono-nav:hover {
-    color: #198754 !important; /* Verde de Bootstrap */
-}
-
-/* HERO BANNER */
+/* El Banner inicial del index.html */
 .hero-section {
     height: 70vh;
-    /* Podés cambiar esta URL por una foto real de una jugadora/jugador de pádel */
     background-image: url('https://images.unsplash.com/photo-1622285434720-0431b26a6f3b?q=80&w=2070&auto=format&fit=crop');
     background-size: cover;
     background-position: center;
 }
 
-/* EFECTOS DE LAS TARJETAS (CARDS) */
+/* Tarjetas de productos */
 .producto-card {
-    background-color: #1a1a1a;
+    background-color: #111;
     border: 1px solid #333;
     transition: transform 0.3s ease, border-color 0.3s ease;
 }
@@ -38,7 +32,6 @@ body {
 
 .producto-card img {
     object-fit: contain;
-    background-color: #ffffff; /* Fondo blanco para las fotos de productos */
     padding: 10px;
     height: 250px;
 }
@@ -55,7 +48,7 @@ body {
     color: #fff;
 }
 
-/* AJUSTES DEL CARRITO */
+/* Carrito */
 .item-carrito-img {
     width: 60px;
     height: 60px;
