@@ -1,34 +1,74 @@
 [
-    {
+        {
         "id": 1,
-        "nombre": "Nox AT10 Genius",
-        "precio": 285000,
-        "descripcion": "La paleta de Agustín Tapia. Formato gota.",
-        "categoria": "paletas",
-        "imagen": "https://acdn.mitiendanube.com/stores/001/139/292/products/at10-18k-2023-11-20fc45672d9fc5caaa16709590858178-640-0.jpg"
+        "nombre": "Paleta Pádel Nox Ea10 Ventus Hybrid 12k Xtrem.",
+        "precio": 693999,
+        "descripcion": "Fibra de carbono, con un peso 360g - 375g máximo.",
+        "categoria":"paletas",
+        "imagen": "https://http2.mlstatic.com/D_Q_NP_2X_668746-MLA96754215142_112025-F.webp"
     },
     {
         "id": 2,
-        "nombre": "Asics Gel-Resolution 9",
+        "nombre": "Nox At10 18k Edicion Especial Argentina.",
+        "precio": 680319,
+        "descripcion": "Una pala exclusiva que combina el diseño más emocional con la tecnología más avanzada de NOX.",
+        "categoria": "paletas",
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_2X_783242-MLA110353661218_052026-F.webp"
+    },
+    {
+        "id": 3,
+        "nombre": "Pala adidas Ale Galan Metalbone Pro Edt 2025 Hueso.",
+        "precio": 670390,
+        "descripcion": "La Metalbone PRO-EDT 2025 es una pala de potencia con todas las características para satisfacer las necesidades de los jugadores de nivel PRO.",
+        "categoria":"paletas",
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_2X_689906-MLA100054736599_122025-F.webp"
+    },
+    {
+        "id": 4,
+        "nombre": "Asics Gel-Resolution 9.",
         "precio": 398999,
         "descripcion": "Suela clay para máximo agarre en la arena.",
         "categoria": "zapatillas",
         "imagen": "https://http2.mlstatic.com/D_Q_NP_803579-MLA91364148703_082025-F.webp"
     },
     {
-        "id": 4,
-        "nombre":"Zapatillas Nox Nerbo Negro",
+        "id": 5,
+        "nombre":"Zapatillas Nox Nerbo Negro.",
         "precio": 216999,
-        "descripcion": "Suela de goma con tela lisa, exclusiva para tenis y padel",
+        "descripcion": "Suela de goma con tela lisa, exclusiva para tenis y padel.",
         "categoria": "zapatillas",
         "imagen":"https://http2.mlstatic.com/D_Q_NP_723847-MLA85933987221_062025-F.webp"
     },
     {
-        "id": 3,
-        "nombre": " Zapatillas Wilson Slice 3.0",
+        "id": 6,
+        "nombre": " Zapatillas Wilson Slice 3.0.",
         "precio": 113999,
-        "descripcion": "Suela de goma para cualquier superficie y estacion",
+        "descripcion": "Suela de goma para cualquier superficie y estacion.",
         "categoria": "zapatillas",
         "imagen": "https://http2.mlstatic.com/D_Q_NP_713485-MLA102150702520_122025-F.webp"
-    }    
+    },
+    {
+        "id": 7,
+        "nombre": "Bolso Paletero Padel Bullpadel",        
+        "precio": 170.050,
+        "descripcion": "La elección ideal para jugadores de pádel que buscan practicidad y protección para su equipamiento.",
+        "categoria": "accesorios",
+        "imagen": "https://http2.mlstatic.com/D_Q_NP_948138-MLA102166571985_122025-F.webp"    
+    },
+    {
+        "id": 8,
+        "nombre": "Muñequera Deportiva Nordic Premium Color Negro",
+        "precio": 9.345,
+        "descripcion": "Muñequeras deportivas premium, con la calidad de siempre.",
+        "categoria": "accesorios",
+        "imagen": "https://http2.mlstatic.com/D_Q_NP_726872-MLA89113042992_082025-F.webp"
+    },
+    {
+        "id": 9,
+        "nombre": "Pelotas Niu Padel Tubo Profesional X2 Unidades Rosa",
+        "precio": 9000,
+        "descripcion": "Pelotas exclusivas para padel y tenis de color rosa",
+        "categoria":"accesorios",
+        "imagen":"https://http2.mlstatic.com/D_Q_NP_624215-MLA111478819690_052026-F.webp"
+    }
 ]
