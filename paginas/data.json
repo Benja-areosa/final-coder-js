@@ -10,17 +10,25 @@
     {
         "id": 2,
         "nombre": "Asics Gel-Resolution 9",
-        "precio": 145000,
+        "precio": 398999,
         "descripcion": "Suela clay para máximo agarre en la arena.",
         "categoria": "zapatillas",
-        "imagen": "https://acdn.mitiendanube.com/stores/001/017/633/products/1041a330_400_sr_rt_glbl-2544e3e6f9872545ab16788225575773-640-0.jpg"
+        "imagen": "https://http2.mlstatic.com/D_Q_NP_803579-MLA91364148703_082025-F.webp"
+    },
+    {
+        "id": 4,
+        "nombre":"Zapatillas Nox Nerbo Negro",
+        "precio": 216999,
+        "descripcion": "Suela de goma con tela lisa, exclusiva para tenis y padel",
+        "categoria": "zapatillas",
+        "imagen":"https://http2.mlstatic.com/D_Q_NP_723847-MLA85933987221_062025-F.webp"
     },
     {
         "id": 3,
-        "nombre": "Bolso Bullpadel Vertex",
-        "precio": 65000,
-        "descripcion": "Amplio, con compartimento térmico para las paletas.",
-        "categoria": "accesorios",
-        "imagen": "https://acdn.mitiendanube.com/stores/001/017/633/products/bpp-23001-005-11-fca5f2c589b275cf2616854580393049-640-0.jpg"
-    }
+        "nombre": " Zapatillas Wilson Slice 3.0",
+        "precio": 113999,
+        "descripcion": "Suela de goma para cualquier superficie y estacion",
+        "categoria": "zapatillas",
+        "imagen": "https://http2.mlstatic.com/D_Q_NP_713485-MLA102150702520_122025-F.webp"
+    }    
 ]
